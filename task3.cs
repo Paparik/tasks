@@ -45,5 +45,6 @@ class Program
         myCar.DisplayInfo();
         myCar.Drive(150);
         myCar.DisplayInfo();
+        GC.Collect();
     }
 }
